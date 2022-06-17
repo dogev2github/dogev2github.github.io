@@ -23,11 +23,18 @@
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 <link href="css/uicons-regular-rounded.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    
+
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
 		 $(document).ready(function(){
 
   $(".nav-link").click(function(){
@@ -36,56 +43,13 @@
 	 $("#navbarTogglerDemo02").removeClass("show");
   });
 		 });
-</script>
-<style type="text/css">
+</script><style type="text/css">
 
     
-@font-face {
-	font-family: "Starjedi";
-	font-weight: 400;
-	src: url("webfonts/Starjedi.ttf") format("ttf"),url("webfonts/Starjedi.woff") format("woff");
-}
-    
-    @font-face {
-	font-family: "Starjhol";
-	font-weight: 400;
-	src: url("webfonts/Starjhol.ttf") format("ttf"),url("webfonts/Starjhol.woff") format("woff");
-}
-    
-    @font-face {
-	font-family: "Starjout";
-	font-weight: 400;
-	src: url("webfonts/Starjout.ttf") format("ttf"),url("webfonts/Starjout.woff") format("woff");
-}
-    
-    @font-face {
-	font-family: "STJEDISE";
-	font-weight: 400;
-	src: url("webfonts/STJEDISE.ttf") format("ttf"), url("webfonts/STJEDISE.woff") format("woff");
-}
-    
-    @font-face {
-	font-family: "Stjldbl1";
-	font-weight: 400;
-	src: url("webfonts/Stjldbl1.ttf") format("ttf"), url("webfonts/Stjldbl1.woff") format("woff"),;
-}
-    
-    @font-face {
-	font-family: "Stjldbl2";
-	font-weight: 400;
-	src: url("webfonts/Stjldbl2.ttf") format("ttf"), url("webfonts/Stjldbl2.woff") format("woff"), ;
-}
-    
-    @font-face {
-	font-family: "Strjmono";
-	font-weight: 400;
-	src: url("webfonts/Strjmono.ttf") format("ttf"), url("webfonts/Strjmono.woff") format("woff");
-}
-    
 body{
-background:#0F0704;
-color:#DDDDDD;
-font-family: 'Nunito Sans', sans-serif;
+background:#FFF6EE;
+color:#8F5519;
+font-family: 'Montserrat', sans-serif;
 font-size:16px;
 font-weight: normal;
 font-style: normal;
@@ -141,12 +105,12 @@ letter-spacing:0em;
 
 	
 .hero-container .hero-title{
-font-weight:700;
-font-size:3.5em;;
+font-weight:900;
+font-size:4em;;
     position:relative;
-color:#DDDDDD;
-    font-family:"Starjedi";
-    letter-spacing:0.05em;
+color:#8F5519;
+    font-family:"Antonio";
+   /* letter-spacing:0.05em; */
 }
 
     
@@ -188,11 +152,11 @@ padding:16px 20px;
 font-weight:600;
 letter-spacing:0px;
 font-size:1em;
-background-color: rgb(50, 115, 197);
+background-color: rgb(255, 172, 77);
     background-image: linear-gradient(
 -234deg
-, rgba(47, 103, 248, 0.5) 0%, rgba(50, 115, 197, 0.75) 100%);
-    box-shadow: 0 0 16px rgb(50 115 197 / 25%);
+, rgba(255, 172, 77, 0.5) 0%, rgba(255, 172, 77, 0.75) 100%);
+    box-shadow: 0 0 16px rgb(255 172 77 / 25%);
 }
 
 .hero-container .buy-button:hover, .hero-container .buy-button:focus{
@@ -200,19 +164,21 @@ background-color: rgb(50, 115, 197);
 }
 
 .hero-container .telegram-button{
-color: rgb(50, 115, 197);
-background-color: transparent;
-
+color: #FFFFFF;
 position: relative;
+    border:0;
 z-index: 1;
 overflow: hidden;
-border: solid 1px rgb(50, 115, 197);
 border-radius:1em;
 padding:16px 20px;
 font-weight:600;
 letter-spacing:0px;
 font-size:1em;
- box-shadow: 0 0 16px rgb(50 115 197 / 25%);
+background-color: rgb(19, 157, 255);
+    background-image: linear-gradient(
+-234deg
+, rgba(19, 157, 255, 0.5) 0%, rgba(19, 157, 255, 0.75) 100%);
+    box-shadow: 0 0 16px rgb(19 157 255 / 25%);
 }
 
 .hero-container .telegram-button:hover, .hero-container .telegram-button:focus{
@@ -237,8 +203,8 @@ font-weight:700;
 /*text-shadow: 10px #2C174F;*/
     /*letter-spacing:0.025em;*/
     
-    font-family:"Starjedi";
-    letter-spacing:0.05em;
+   /* letter-spacing:0.05em; */
+    text-transform: uppercase;
 }
 
 /* ---------------- */
@@ -249,12 +215,12 @@ font-weight:700;
 }
 
 .about-container{
-color:#DDDDDD;
+color:#8F5519;
 padding-bottom:0 !important;
 }
 
 .about-container .about-title{
-   color:#DDDDDD;
+   color:#8F5519;
     
 }
 
@@ -269,7 +235,7 @@ padding-bottom:0 !important;
 }
 
 .features-container{
-color:#DDDDDD;
+color:#8F5519;
 padding-top:0 !important;
 }
 
@@ -301,7 +267,7 @@ font-weight:700;
 }
     
 .features-container .tax-title-2{
-color: #DDDDDD;
+color: #FFFFFF;
 font-size: 1.5em;
 font-weight: 700;
 letter-spacing: 0;
@@ -311,7 +277,7 @@ line-height: 1;
 .features-container .tax-description{
 font-size:1em;
 font-weight:400;
-    color: #DDDDDD;
+    color: #FFFFFF;
 }
 
 /* ---------------- */
@@ -322,14 +288,13 @@ font-weight:400;
 }
 
 .tokenomics-container{
-color:#DDDDDD;
+color:#8F5519;
 }
 
 .tokenomics-container h3{
 font-size:2.5em;
 font-weight: 700;
-  color:#DDDDDD;
-font-family:'Poppins', sans-serif;
+  color:#8F5519;
 }
 
 .tokenomics-container .tokenomics-title{
@@ -350,7 +315,7 @@ background:transparent;
 }
 
 .tokenomics-container .tax-title{
-color: #DDDDDD;
+color: #FFFFFF;
 font-weight: 600;
 line-height: 0.85;
 -webkit-text-stroke-width: 0px;
@@ -360,7 +325,7 @@ font-weight:700;
 }
     
 .tokenomics-container .tax-title-2{
-color: #DDDDDD;
+color: #FFFFFF;
 font-size: 1.5em;
 font-weight: 700;
 letter-spacing: 0;
@@ -370,19 +335,19 @@ line-height: 1;
 .tokenomics-container .tax-description{
 font-size:1em;
 font-weight:400;
-    color:#DDDDDD;
+    color:#FFFFFF;
 }
 
 
 .tokenomics-container .tokenomics-info-table td{
 	padding:1em 1em;
 	border:0px solid #ECF4FF;
-	color: #DDDDDD !important;
+	color: #8F5519 !important;
 background:transparent !important;
 }
 
 .tokenomics-container .tokenomics-info-table td span{
-	color: #DDDDDD !important;
+	color: #8F5519 !important;
 }
 
 .tokenomics-container .table{
@@ -391,7 +356,7 @@ background:transparent !important;
 	border:0px solid #71DFE6 !important;
 	background:transparent;
 	font-size:1em;
-        color: #DDDDDD !important;
+        color: #8F5519 !important;
 max-width:730px;
 }
 
@@ -411,7 +376,7 @@ max-width:730px;
 }
 	
 .roadmap-container{
-color:#DDDDDD;
+color:#8F5519;
 }
 
 .roadmap-container ul > li{
@@ -420,11 +385,11 @@ margin-top:4px;
 }
 
 .roadmap-container .roadmap-title{
-    color:#DDDDDD;
+    color:#8F5519;
 }
 
 .roadmap-container h4{
-color:#DDDDDD;
+color:#8F5519;
 }
 
 /* ---------------- */
@@ -435,7 +400,7 @@ color:#DDDDDD;
 }
 
 .swap-container{
-color:#DDDDDD;
+color:#8F5519;
 }
 
 
@@ -448,17 +413,17 @@ color:#DDDDDD;
 }
 	
 .faq-container{
-color:#DDDDDD;
+color:#8F5519;
 }
 
 .faq-container .accordion-item {
-    background-color: #626262;
+    background-color: #FFAC4D;
     border: 1px solid rgba(0,0,0,.125);
 }   
 
 .faq-container .accordion-button{
-    color: #DDDDDD !important;
-    background-color: #626262 !important;
+    color: #FFFFFF !important;
+    background-color: #FFAC4D !important;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%) important;
 }
 
@@ -476,7 +441,7 @@ color:#DDDDDD;
 }
 
 .faq-container .accordion-body{
-color:#DDDDDD;
+color:#FFFFFF;
 }
 /* ---------------- */
 
@@ -486,7 +451,7 @@ color:#DDDDDD;
 }
 
 .footer-container{
-color:#DDDDDD;
+color:#8F5519;
 }
 
 .footer-container ul > li{
@@ -498,7 +463,7 @@ margin-bottom:24px;
 }
 
 .footer-container a{
-color:#DDDDDD;
+color:#8F5519;
 font-size:1.25em;
 font-weight:500;
 }
@@ -525,7 +490,7 @@ font-size:1.5em;
 
 .hero-container .hero-title{
 font-weight:700;
-font-size:4em;
+font-size:6em;
 }
     
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -548,7 +513,7 @@ padding-right: 0rem !important;
 .navbar-collapse{
 padding-top:76px !important;
 z-index:2 !important;
-background:#090401 !important;
+background:#FFAC4D !important;
 position:fixed !important;
 top:0 !important;
 left:0 !important;
@@ -563,7 +528,7 @@ border:0;
 z-index:3;
 padding:0;
 position:fixed !important;
-top:16px;
+top:24px;
 right:16px;
 }
 
@@ -587,7 +552,7 @@ width:35px;
 }
     
 .collapsed .navbar-toggler-icon{
-background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23FFFFFF;'%3E%3Cpath d='M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z'%3E%3C/path%3E%3C/svg%3E") !important;
+background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%238F5519;'%3E%3Cpath d='M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z'%3E%3C/path%3E%3C/svg%3E") !important;
     height:35px;
     width:35px;
 }
@@ -607,11 +572,11 @@ text-align:center !important;
 }
 
     .nav-link{
-color:#FFFFFF !important;
+color:#8F5519 !important;
 }
     
      .nav-link:hover{
-color:#3273C5 !important;   
+color:#8F5519 !important;   
 	}
 	
 .navbar-toggler {
@@ -723,7 +688,7 @@ transition: transform .125s !important;
 }
 
 .back{
-  background-image: url("images/logo-only-3.png");
+  background-image: url("images/logo-only.png");
   width: 100%;
   height: 100%;
 background-repeat: no-repeat;
@@ -731,7 +696,7 @@ background-repeat: no-repeat;
 }
 
 .middle{
-  background-image: url("images/logo-only-3.png");
+  background-image: url("images/logo-only.png");
   width: 100%;
   height: 100%;
   transform: translateZ(1px);
@@ -742,7 +707,7 @@ background-repeat: no-repeat;
 }
 
 .front{
-    background-image: url("images/logo-only-3.png");
+    background-image: url("images/logo-only.png");
     height: 100%;
     position: absolute;
     top: 0;
@@ -800,8 +765,8 @@ background-repeat: no-repeat;
 <nav class="navbar navbar-expand-lg navbar-dark" id="#home">
 <div class="container" data-aos="fade">
 <a class="navbar-brand d-flex flex-row justify-content-center align-items-center" href="/">
-    <img class="d-none img-fluid me-2" src="images/logo-text-only.png" style="max-height:34px;">
-<h1 class="mb-0 " style="font-size:1em;font-weight:700;color:#DDDDDD;">$DOGE</h1></a>
+    <img class="img-fluid me-2" src="images/logo-only.png" style="max-height:50px;">
+<h1 class="mb-0 d-none" style="font-size:1em;font-weight:700;color:#8F5519;">$DOGE</h1></a>
 <button id="navToggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
 <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
@@ -820,13 +785,9 @@ background-repeat: no-repeat;
 </header>
 
 <main>
-    <div id="backgroundvideocontainer" class="background-video-container">
-<video class="background-video" autoplay="" muted="" loop="">
-<source src="images/video-1.webm" type="video/webm">
-</video>
-</div>
+    
 
-<div id="darkbackgroundoverlay" class="dark-background-overlay"></div>
+
 
     
 <section class="hero-section" style="position:relative;">
@@ -836,7 +797,7 @@ background-repeat: no-repeat;
 
 <div data-aos="fade-right" class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
 
-<h1 class="hero-title text-center"><span style="/*color:#8CC912;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">obi-wan</span> <span style="/* color:#015CFF;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">inu!</span></h1>
+<h1 class="hero-title text-center"><span style="/*color:#8CC912;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">WELCOME TO <br>DOGE V2</span> </h1>
 
 <p class="hero-description mt-1">Doge V2 is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain</p>
 <div class="d-flex flex-column flex-sm-row mt-2">
@@ -896,11 +857,15 @@ background-repeat: no-repeat;
 <h2 class="section-title tokenomics-title text-center" data-aos="fade" style="">features</h2><div class="row mt-5 mb-4">
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="
+    border:0;
+    background-color: rgb(255, 172, 77);
     background-image: linear-gradient(
 -234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/;background-image: url('images/image-1.jpeg')">
+, rgba(255, 172, 77, 0.855) 0%, rgba(255, 172, 77, 0.796) 100%);
+    box-shadow: 0 0 12px rgb(255 172 77 / 64%);
+    background-image: url('images/image-1.jpeg');
+    ">
 <img class="img-fluid mb-4" src="images/community-driven.png" style="max-height:100px;">
 <span class="tax-title-2 text-center mb-3">Community Driven</span><span class="tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
 </div>
@@ -908,20 +873,28 @@ background-repeat: no-repeat;
 
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="
+    border:0;
+    background-color: rgb(19, 157, 255);
     background-image: linear-gradient(
 -234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/;background-image: url('images/image-2.jpeg')">
+, rgba(19, 157, 255, 0.855) 0%, rgba(19, 157, 255, 0.796) 100%);
+    box-shadow: 0 0 12px rgb(19 157 255 / 64%);
+    background-image: url('images/image-2.jpeg');
+    ">
 <img class="img-fluid mb-4" src="images/lp-lock.png" style="max-height:100px;">
 <span class="tax-title-2 text-center mb-2">Secured By Design</span><span class="tax-description text-center ">Initial Liquidity Provided will be locked. This ensures that the project will not be rug-pulled.</span>
 </div>
 </div><div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="
+    border:0;
+    background-color: rgb(255, 172, 77);
     background-image: linear-gradient(
 -234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/;background-image: url('images/image-3.jpg')">
+, rgba(255, 172, 77, 0.855) 0%, rgba(255, 172, 77, 0.796) 100%);
+    box-shadow: 0 0 12px rgb(255 172 77 / 64%);
+    background-image: url('images/image-1.jpeg');
+    ">
 <img class="p-1 img-fluid mb-4 " src="images/anti-whale.png" style="max-height:100px;">
 <span class="tax-title-2 text-center mb-2">Safe and Whale-Proof</span><span class="tax-description text-center">Sells are restricted to less than 2% of the total supply to reduce swing-trading and break whales' control.</span>
 </div>
@@ -969,11 +942,15 @@ background-repeat: no-repeat;
 
 
 <div class="col-12 col-lg-4 mb-4 ms-auto">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="
+    border:0;
+    background-color: rgb(255, 172, 77);
     background-image: linear-gradient(
 -234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/;background-image: url('images/image-4.jpeg')">
+, rgba(255, 172, 77, 0.855) 0%, rgba(255, 172, 77, 0.796) 100%);
+    box-shadow: 0 0 12px rgb(255 172 77 / 64%);
+    background-image: url('images/image-1.jpeg');
+    ">
 <span class="tax-title text-center mb-3">5%</span>
 <span class="tax-title-2 text-center mb-3">Liquidity Pool</span><span class="tax-description text-center">5% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
 </div>
@@ -982,11 +959,15 @@ background-repeat: no-repeat;
 
 
 <div class="col-12 col-lg-4 mb-4 me-auto">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="
+    border:0;
+    background-color: rgb(19, 157, 255);
     background-image: linear-gradient(
 -234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/;background-image: url('images/image-6.jpeg')">
+, rgba(19, 157, 255, 0.855) 0%, rgba(19, 157, 255, 0.796) 100%);
+    box-shadow: 0 0 12px rgb(19 157 255 / 64%);
+    background-image: url('images/image-2.jpeg');
+    ">
 <span class="tax-title text-center mb-3">5%</span>
 <span class="tax-title-2 text-center mb-3">Marketing</span><span class="tax-description text-center">5% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
 </div>
@@ -1007,11 +988,11 @@ background-repeat: no-repeat;
 <div class="col-12 col-lg-4 text-center py-3">
 <h4 data-aos="fade" class="aos-init">PHASE 1</h4>
 <ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
-<li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#3273C5" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#3273C5" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#3273C5" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#3273C5" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#3273C5" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#139DFF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#139DFF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#139DFF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#139DFF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#139DFF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
 </ul>
 </div>
 <div class="col-12 col-lg-4 text-center py-3">
@@ -1051,7 +1032,7 @@ background-repeat: no-repeat;
 </div>
 </section><section id="swap" class="section swap-section">
 <div class="section-container swap-container container py-5">
-<h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="">buy obi</h2>
+<h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="">BUY $DOGE</h2>
 
 <div class="row mt-5 mb-4">
 
@@ -1187,6 +1168,7 @@ AOS.init({
 
 });
 </script>
+
 
 
 </body></html>
